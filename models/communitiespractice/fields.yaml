@@ -1,0 +1,39 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    title:
+        label: Title
+        type: text
+        required: true
+        span: full
+    country:
+        label: Country
+        type: relation
+        nameFrom: name
+        span: full
+    country_code:
+        label: Country Codes
+        span: full
+        dependsOn:
+            - country
+        type: checkboxlist
+    description:
+        label: Description
+        type: richeditor
+        size: large
+        span: full
+    cover:
+        label: Cover Image
+        type: fileupload
+        mode: image
+        imageWidth: 260
+        imageHeight: 260
+        span: full
+
+    file:
+        label: File
+        type: fileupload
+        mode: file
+        span: full

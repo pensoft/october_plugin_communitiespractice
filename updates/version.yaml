@@ -1,0 +1,7 @@
+1.0.1: First version of CommunitiesPractice
+1.0.2: 
+  - 'Created Communities Table'
+  - create_communitiespractice_communities_table.php
+1.0.3:
+  - 'Created Communities-Countries pivot table'
+  - create_communities_countries_pivot_table.php

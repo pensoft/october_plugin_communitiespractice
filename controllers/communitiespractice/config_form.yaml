@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Communities Practice
+
+# Model Form Field configuration
+form: $/pensoft/communitiespractice/models/communitiespractice/fields.yaml
+
+# Model Class name
+modelClass: Pensoft\CommunitiesPractice\Models\CommunitiesPractice
+
+# Default redirect location
+defaultRedirect: pensoft/communitiespractice/communitiespractice
+
+# Create page
+create:
+    title: backend::lang.form.create_title
+    redirect: pensoft/communitiespractice/communitiespractice/update/:id
+    redirectClose: pensoft/communitiespractice/communitiespractice
+
+# Update page
+update:
+    title: backend::lang.form.update_title
+    redirect: pensoft/communitiespractice/communitiespractice
+    redirectClose: pensoft/communitiespractice/communitiespractice
+
+# Preview page
+preview:
+    title: backend::lang.form.preview_title

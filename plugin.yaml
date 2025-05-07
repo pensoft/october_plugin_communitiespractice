@@ -1,0 +1,11 @@
+plugin:
+    name: 'pensoft.communitiespractice::lang.plugin.name'
+    description: 'pensoft.communitiespractice::lang.plugin.description'
+    author: Pensoft
+    icon: oc-icon-calendar-o
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: 'Communities Practice'
+        url: pensoft/communitiespractice/communitiespractice
+        icon: icon-flask
